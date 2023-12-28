@@ -1,0 +1,145 @@
+:root {
+  --color1: #e6bd1c;
+  --color2: #f2eae1;
+  --color3: #000000;
+  --color4: #fff;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 20%;
+  background: var(--color2);
+  .side-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    .block-1 {
+      margin-top: 18px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 5px;
+      span {
+        height: 23px;
+        width: 4px;
+        background-color: var(--color1);
+      }
+      h4 {
+        font-size: 15px;
+        font-weight: 700;
+      }
+    }
+    .block-2 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 33px;
+      margin-bottom: 20px;
+      img {
+        width: 120px;
+      }
+      h3 {
+        margin-top: 8px;
+        color: var(--color3);
+        font-size: 15px;
+        font-weight: 700;
+      }
+      p {
+        color: var(--color1);
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+    .block-3 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 7px;
+      a {
+        width: 65%;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        background: var(--color1);
+        border-radius: 18px;
+        gap: 0px;
+        transition: 0.3s;
+        svg {
+          width: 30%;
+          height: 15px;
+          display: flex;
+          align-items: end;
+        }
+        p {
+          width: 40%;
+          display: flex;
+          align-items: center;
+          justify-content: start;
+          font-size: 12px;
+          font-weight: 600;
+          color: var(--color3);
+          transition: 0.5s;
+        }
+      }
+      a:last-child {
+        margin-top: 0px;
+        .s1 {
+          position: absolute;
+          z-index: 1;
+          width: 70px;
+          height: 3px;
+          left: 140px;
+          margin-top: 12px;
+          background: #00000000;
+          transition-duration: 0.2s;
+        }
+        .s2 {
+          position: absolute;
+          z-index: 1;
+          left: 140px;
+          margin-top: 11px;
+          transition-duration: 0.2s;
+        }
+        svg {
+          position: relative;
+          z-index: 2;
+          transition-duration: 0.7s;
+        }
+        .close-t {
+          position: absolute;
+          z-index: 3;
+          font-size: 18px;
+          transform: translateX(-16px);
+          transition-duration: 0.5s;
+        }
+      }
+    }
+    .block-4 {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: 0.2s;
+      bottom: 22px;
+      button {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-size: 13px;
+      }
+    }
+  }
+}

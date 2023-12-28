@@ -1,7 +1,9 @@
-import React from "react";
+import Aside from "../../components/aside/Aside";
 
 const Payments = () => {
-  return <div>Payments</div>;
+  return <div>
+    <Aside />
+    Payments</div>;
 };
 
 export default Payments;

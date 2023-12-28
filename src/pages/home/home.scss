@@ -1,0 +1,44 @@
+.homeCards {
+  margin-left: 27rem;
+  width: 75%;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 5rem;
+  .card {
+    width: 200px;
+    height: 100px;
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 1rem;
+    justify-content: space-around;
+    &:nth-child(1) {
+      background-color: #f0f9ff;
+    }
+    &:nth-child(2) {
+      background-color: #fef6fb;
+    }
+    &:nth-child(3) {
+      background-color: #fefbec;
+    }
+    &:nth-child(4) {
+      h4 {
+        margin-left: 0.3rem;
+        color: #fff;
+      }
+      background: linear-gradient(110deg, #feaf00 18.27%, #f8d442 91.84%);
+    }
+    img {
+      margin-top: 1rem;
+    }
+    h4 {
+      margin-top: 0.5rem;
+      color: #6c6c6c;
+    }
+    h2 {
+      span {
+        font-size: 1.1rem;
+      }
+      font-size: 1.7rem;
+      margin-top: 6rem;
+    }
+  }
+}

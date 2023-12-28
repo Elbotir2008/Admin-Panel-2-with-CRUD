@@ -1,0 +1,58 @@
+.students {
+  width: 75%;
+  margin-left: 27rem;
+  margin-top: 5rem;
+  form {
+    margin-bottom: 5rem;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+      margin-bottom: 1rem;
+    }
+    input {
+      border-radius: 1rem;
+      padding: 1rem;
+      width: 20rem;
+      height: 3.5rem;
+      border: 1px solid #feaf00;
+    }
+    button {
+      margin-left: 2rem;
+      border-radius: 0.6rem;
+      border: 1px solid #feaf00;
+      color: #fff;
+      background-color: #feaf00;
+      padding: 0.8rem 2rem;
+      transition: 0.1s linear;
+      &:hover {
+        transition: 0.1s linear;
+        background-color: #fff;
+        color: #feaf00;
+      }
+    }
+  }
+  table {
+    thead {
+      hr {
+        background-color: #acacac;
+      }
+      tr {
+        color: #acacac;
+        margin-left: 4rem;
+        font-size: 1.5rem;
+      }
+      width: 100%;
+    }
+    tbody {
+      tr {
+        margin-top: 10rem;
+        .imgTd {
+          img {
+            border-radius: 30%;
+            width: 6rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+header {
+  margin-left: 25rem;
+  width: 75%;
+  height: 4rem;
+  padding: 1rem;
+  justify-content: space-between;
+  img {
+    cursor: pointer;
+  }
+  .searchBar {
+    gap: 2rem;
+    input {
+      border: 1px solid #e5e5e5;
+      border-radius: 1rem;
+      width: 200px;
+      height: 3rem;
+      padding: 1rem 2rem;
+    }
+    .search {
+      position: absolute;
+      left: 90%;
+      top: 3%;
+      width: 1.5rem;
+    }
+  }
+}
