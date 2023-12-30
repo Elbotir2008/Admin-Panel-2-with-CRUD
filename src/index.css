@@ -38,3 +38,6 @@ button {
 .grid-class {
   display: grid;
 }
+.dsp_none {
+  display: none;
+}
