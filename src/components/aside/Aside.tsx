@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import "./Aside.scss";
+import "./aside.scss";
 import Header from "../header/Header";
 const Aside = () => {
   const [dark, setDark] = useState<boolean>(false);
