@@ -1,6 +1,6 @@
 .students {
   width: 75%;
-  margin-left: 27rem;
+  margin-left: 25rem;
   margin-top: 5rem;
   form {
     margin-bottom: 5rem;
@@ -33,9 +33,6 @@
   }
   table {
     thead {
-      hr {
-        background-color: #acacac;
-      }
       tr {
         color: #acacac;
         margin-left: 4rem;
@@ -53,6 +50,16 @@
           }
         }
       }
+      .actions {
+        img {
+          cursor: pointer;
+          margin-left: 1rem;
+        }
+      }
     }
   }
+}
+
+form {
+  font-size: 1.5rem;
 }

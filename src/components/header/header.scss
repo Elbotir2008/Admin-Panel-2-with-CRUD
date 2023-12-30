@@ -1,4 +1,8 @@
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
   margin-left: 25rem;
   width: 75%;
   height: 4rem;
@@ -17,9 +21,9 @@ header {
       padding: 1rem 2rem;
     }
     .search {
-      position: absolute;
+      position: relative;
       left: 90%;
-      top: 3%;
+      top: 10%;
       width: 1.5rem;
     }
   }

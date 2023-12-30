@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Aside from "../../components/aside/Aside";
 import "./home.scss";
 const Home = () => {
@@ -6,11 +7,13 @@ const Home = () => {
       <Aside />
       <div className="homeCards grid-class">
         <div className="card flex-class">
-          <div className="left">
-            <img src="./home1.svg" alt="Eror" />
-            <h4>Students</h4>
-          </div>
-          <h2>243</h2>
+          <Link to="/students">
+            <div className="left">
+              <img src="./home1.svg" alt="Eror" />
+              <h4>Students</h4>
+            </div>
+            <h2>243</h2>
+          </Link>
         </div>
         <div className="card flex-class">
           <div className="left">
@@ -20,20 +23,24 @@ const Home = () => {
           <h2>13</h2>
         </div>
         <div className="card flex-class">
-          <div className="left">
-            <img src="./home3.svg" alt="Eror" />
-            <h4>Payments</h4>
-          </div>
-          <h2>
-            <span>INR</span> 556,000
-          </h2>
+          <Link to="/payments">
+            <div className="left">
+              <img src="./home3.svg" alt="Eror" />
+              <h4>Payments</h4>
+            </div>
+            <h2>
+              <span>INR</span> 556,000
+            </h2>
+          </Link>
         </div>
         <div className="card flex-class">
-          <div className="left">
-            <img src="./home4.svg" alt="Eror" />
-            <h4>Users</h4>
-          </div>
-          <h2>3</h2>
+          <Link to="/stundents">
+            <div className="left">
+              <img src="./home4.svg" alt="Eror" />
+              <h4>Users</h4>
+            </div>
+            <h2>3</h2>
+          </Link>
         </div>
       </div>
     </div>

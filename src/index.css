@@ -6,6 +6,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
   font-family: "Roboto", sans-serif;
 }
 .container {
@@ -23,8 +24,9 @@ input {
   outline: none;
 }
 a {
+  color: #000 !important;
   outline: none;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 button {
   outline: none;
