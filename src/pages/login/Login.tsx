@@ -4,7 +4,6 @@ import { useState } from "react";
 
 const Login = () => {
   let navigate = useNavigate();
-  const [isSignIn, setIsSignIn] = useState(false);
   let getSignUpValues = JSON.parse(localStorage.getItem("registerValues")!);
   const [signInValues, setSignInValues] = useState({
     email: "",
@@ -21,10 +20,8 @@ const Login = () => {
       getSignUpValues.email == signInValues.email &&
       getSignUpValues.password == signInValues.password
     ) {
-      setIsSignIn(true);
       navigate("/home");
     } else {
-      setIsSignIn(false);
       navigate("/login");
     }
   };

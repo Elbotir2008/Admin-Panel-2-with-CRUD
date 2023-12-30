@@ -84,6 +84,7 @@ const Students = () => {
         `https://658be2d2859b3491d3f4fb51.mockapi.io/api/v2/Students/` + id
       );
       let data = await res.data;
+      console.log(data);
       toast.success("Your request has been processed");
       fetchStudentsApi();
     } catch (error) {
